@@ -1,25 +1,8 @@
-import { motion, useCycle } from "framer-motion";
-import { useState, useEffect } from "react";
+import { motion } from "framer-motion";
 
-const MenuButton = () => {
-  const [isOpen, setIsOpen] = useState(false);
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  };
-  const handleResize = () => {
-    if (window.innerWidth > 768) {
-      setIsOpen(false);
-    }
-  };
-  useEffect(() => {
-    window.addEventListener("resize", handleResize);
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
-
+export default function MenuButton({ isOpen }: { isOpen: boolean }) {
   return (
-    <button onClick={toggleMenu} className="flex flex-col justify-around w-5">
+    <button className="flex flex-col justify-around w-5">
       <motion.div
         className="flex flex-col justify-around h-5 w-full"
         initial={false}
@@ -49,6 +32,4 @@ const MenuButton = () => {
       </motion.div>
     </button>
   );
-};
-
-export default MenuButton;
+}
