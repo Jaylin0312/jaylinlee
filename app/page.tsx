@@ -1,9 +1,11 @@
-import Header from './components/Header/Navbar'
+import Header from '@/Header/page'
+import About from "./About/page"
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-[#102A43]">
-      <Header/>
+    <main className="min-h-screen bg-slate-900 px-10">
+      <Header />
+      <About />
     </main>
   )
 }
