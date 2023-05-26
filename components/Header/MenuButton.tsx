@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { motion } from 'framer-motion'
 
 export default function MenuButton({ isOpen }: { isOpen: boolean }) {
   return (
@@ -6,13 +6,13 @@ export default function MenuButton({ isOpen }: { isOpen: boolean }) {
       <motion.div
         className="flex flex-col justify-around h-5 w-full"
         initial={false}
-        animate={isOpen ? "open" : "closed"}
+        animate={isOpen ? 'open' : 'closed'}
       >
         <motion.span
           className="block w-full h-1 bg-slate-100"
           variants={{
             closed: { rotate: 0 },
-            open: { rotate: 45, translateY: "9px" },
+            open: { rotate: 45, translateY: '9px' },
           }}
         />
         <motion.span
@@ -26,10 +26,10 @@ export default function MenuButton({ isOpen }: { isOpen: boolean }) {
           className="block w-full h-1 bg-slate-100"
           variants={{
             closed: { rotate: 0 },
-            open: { rotate: -45, translateY: "-5px" },
+            open: { rotate: -45, translateY: '-5px' },
           }}
         />
       </motion.div>
     </button>
-  );
+  )
 }
