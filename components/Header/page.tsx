@@ -24,7 +24,7 @@ export default function Header() {
     }
   }, [])
   return (
-    <header className="flex mx-auto justify-between py-8 max-w-screen-xl w-full">
+    <header className="flex mx-auto justify-between py-8 max-w-screen-2xl w-full">
       <div className="flex text-slate-100 gap-8">
         <div>Logo</div>
         <div className="hidden md:block">Skills</div>

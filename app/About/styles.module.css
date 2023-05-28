@@ -1,20 +1,73 @@
-.customspline {
+.customsplinecup {
   position: relative;
+  width:100px;
+  visibility: hidden;
 }
 
-.spline {
+.customsplinecam {
+  position: relative;
+  height:10px;
+  visibility: hidden;
+}
+
+.splinecup {
   position: absolute !important;
   margin: 0;
-  top: -2rem;
-  right: 5rem;
+  right: 70%;
+  @media (max-width: 1024px) {
+    right: 25% !important;
+  }
   @media (max-width: 768px) {
-    right: 2.5rem !important;
+    right: 5% !important;
+  }
+  @media (max-width: 370px) {
+    right: 25% !important;
   }
 }
 
-.spline > canvas {
+.splinecup > canvas {
+  visibility: visible;
+  @media (max-width: 1024px) {
+    width: 130px !important;
+    height: 130px !important;
+  }
   @media (max-width: 768px) {
+    width: 120px !important;
+    height: 120px !important;
+  }
+  @media (max-width: 425px) {
     width: 100px !important;
     height: 100px !important;
+  }
+}
+
+.splinecam {
+  position: absolute !important;
+  margin: 0 !important;
+  top: -1100%;
+  right: -60%;
+  @media (max-width: 1024px) {
+    top: -1000%;
+    right: -70% !important;
+  }
+  @media (max-width: 426px) {
+    top: -1000%;
+    right: -75% !important;
+  }
+}
+
+.splinecam > canvas {
+  visibility: visible;
+  @media (max-width: 1024px) {
+    width: 160px !important;
+    height: 140px !important;
+  }
+  @media (max-width: 768px) {
+    width: 120px !important;
+    height: 100px !important;
+  }
+  @media (max-width: 425px) {
+    width: 110px !important;
+    height: 90px !important;
   }
 }
