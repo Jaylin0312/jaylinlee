@@ -1,5 +1,6 @@
 'use client'
 import Image from 'next/image'
+import Intro from './intro';
 import Spline from '@splinetool/react-spline'
 import styles from './styles.module.css';
 
@@ -14,7 +15,7 @@ export default function About() {
           JAYLIN LEE JIE LING
         </div>
         <div className="text-lg lg:text-3xl 2xl:text-6xl text-white">
-          I am also a Web Developer
+          I am a <Intro />
         </div>
         <div className="text-xs md:max-w-lg lg:max-w-xl lg:text-lg 2xl:text-xl text-white">
           Second year Information Systems student at Singapore Management
