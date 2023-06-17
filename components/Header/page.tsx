@@ -25,14 +25,14 @@ export default function Header() {
   }, [])
   return (
     <header className="flex mx-auto justify-between py-8 max-w-screen-2xl w-full">
-      <div className="flex text-slate-100 gap-8">
-        <div>Logo</div>
-        <div className="hidden md:block">Skills</div>
-        <div className="hidden md:block">Experience</div>
-        <div className="hidden md:block">Project</div>
-        <div className="hidden md:block">Contacts</div>
+      <div className="flex text-slate-100 gap-5 lg:gap-8">
+        <div className='block text-sm'>Logo</div>
+        <div className="hidden md:block text-sm">Skills</div>
+        <div className="hidden md:block text-sm">Experience</div>
+        <div className="hidden md:block text-sm">Project</div>
+        <div className="hidden md:block text-sm">Contacts</div>
       </div>
-      <div className="flex align-center text-slate-100 gap-8">
+      <div className="flex align-center text-slate-100 gap-5 lg:gap-8">
         <div className="hidden md:block">
           <Crescent />
         </div>

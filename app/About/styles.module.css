@@ -72,7 +72,7 @@
   }
 
   .splinecam > canvas {
-    width: 120px !important;
+    width: 110px !important;
     height: 100px !important;
   }
 }

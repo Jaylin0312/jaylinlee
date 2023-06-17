@@ -4,8 +4,8 @@ export default function Intro() {
   return (
     <Typed
       strings={[
-        "Full Stack Developer",
-        'Aspiring Software Engineer',
+        'Aspiring SWE',
+        'Full Stack Developer',
         'Student at SMU',
         'Tech Enthusiast',
         'Lifelong Learner',
