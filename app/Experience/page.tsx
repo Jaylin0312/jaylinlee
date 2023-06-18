@@ -1,6 +1,6 @@
 'use client'
 import Card from './Card'
-import Detail from './Details/page'
+import Detail from './Details/detail'
 import { useState } from 'react'
 
 export default function Experience() {

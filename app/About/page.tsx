@@ -1,6 +1,6 @@
 'use client'
 import Image from 'next/image'
-import Intro from './Intro'
+import Intro from './intro'
 import Scrolldown from '@/svg/scrolldown'
 import Spline from '@splinetool/react-spline'
 import styles from './styles.module.css'

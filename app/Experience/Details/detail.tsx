@@ -1,4 +1,3 @@
-import React, { useEffect } from 'react'
 import experiences from '../../../config/experiences'
 import styles from './style.module.css'
 
