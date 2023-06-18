@@ -1,6 +1,7 @@
 import Header from '@/Header/page'
 import About from "./About/page"
 import Experience from './Experience/page'
+import Project from './Project/page'
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Header />
       <About />
       <Experience />
+      <Project />
     </main>
   )
 }
