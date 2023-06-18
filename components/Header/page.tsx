@@ -23,14 +23,21 @@ export default function Header() {
       window.removeEventListener('resize', handleResize)
     }
   }, [])
+  useEffect(() => {
+    if (isOpen) {
+      document.body.classList.add('overflow-hidden')
+    } else {
+      document.body.classList.remove('overflow-hidden')
+    }
+  }, [isOpen])
   return (
-    <header className="flex mx-auto justify-between py-8 max-w-screen-2xl w-full">
+    <header className="flex mx-auto justify-between py-4 md:py-8 px-7 md:px-10 w-screen bg-slate-900 fixed left-0 z-10">
       <div className="flex text-slate-100 gap-5 lg:gap-8">
-        <div className='block text-sm'>Logo</div>
-        <div className="hidden md:block text-sm">Skills</div>
-        <div className="hidden md:block text-sm">Experience</div>
-        <div className="hidden md:block text-sm">Project</div>
-        <div className="hidden md:block text-sm">Contacts</div>
+        <div className="block text-md">Logo</div>
+        <div className="hidden md:block text-md">Skills</div>
+        <div className="hidden md:block text-md">Experience</div>
+        <div className="hidden md:block text-md">Project</div>
+        <div className="hidden md:block text-md">Contacts</div>
       </div>
       <div className="flex align-center text-slate-100 gap-5 lg:gap-8">
         <div className="hidden md:block">
@@ -52,7 +59,7 @@ export default function Header() {
       <div
         className={`${
           isOpen ? 'opacity-100 block' : 'opacity-0 invisible'
-        } absolute top-20 left-0 w-screen transition-opacity duration-500 ease-in-out z-10 backdrop-blur-sm`}
+        } top-20 w-full right-0 transition-opacity duration-500 ease-in-out backdrop-blur-sm fixed z-20`}
       >
         <Dropdown isOpen={isOpen} />
       </div>
