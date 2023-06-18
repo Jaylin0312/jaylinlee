@@ -59,7 +59,7 @@ export default function Header() {
       <div
         className={`${
           isOpen ? 'opacity-100 block' : 'opacity-0 invisible'
-        } top-20 w-full right-0 transition-opacity duration-500 ease-in-out backdrop-blur-sm fixed z-20`}
+        } top-14 w-full right-0 transition-opacity duration-500 ease-in-out backdrop-blur-sm fixed z-20`}
       >
         <Dropdown isOpen={isOpen} />
       </div>

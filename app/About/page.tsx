@@ -1,13 +1,15 @@
 'use client'
 import Image from 'next/image'
+import { useMediaQuery } from 'react-responsive';
 import Intro from './intro'
 import Scrolldown from '@/svg/scrolldown'
 import Spline from '@splinetool/react-spline'
 import styles from './styles.module.css'
 
 export default function About() {
+  const isMobile = useMediaQuery({ maxWidth: 768 });
   return (
-    <section className="flex flex-col items-center h-screen justify-center gap-20 md:gap-5">
+    <section className="flex flex-col items-center h-screen justify-center gap-6 md:gap-5">
       <div className="flex flex-wrap-reverse xl:gap-16 2xl:gap-32 justify-center items-center md:flex-nowrap md:py-16 xl:py-20 2xl:py-32 overflow-hidden">
         <div className="flex flex-col gap-2 md:gap-3 xl:gap-6 flex-wrap">
           <div className="text-md lg:text-lg 2xl:text-xl text-white">
@@ -35,8 +37,8 @@ export default function About() {
             src="/Avatar.png"
             alt="myImage"
             className="select-none"
-            width={380}
-            height={100}
+            width={isMobile ? 280 : 380}
+            height="100"
           />
           <div className={styles.customsplinecam}>
             <Spline
