@@ -32,9 +32,9 @@ const experiences: Experience[] = [
     duration: "Jan 2019 - May 2019",
     jobPosition: "Digital Marketing Executive",
     achievements: [
-      `Implemented features for a Web3 marketplace using Angular, SCSS and Typescript, which successfully drove the onboarding of new web users by a factor of 3`,
-      `Engineered controllers, business logic, and custom reusable UI components to support user onboarding`,
-      `Improved web performance by refactoring legacy code and removing unused functions and stylings`,
+      `Planned and implemented overall marketing strategies for company`,
+      `Developed company's website from scratch which allowed customers to make bookings online. Successfully increased sales by 20%`,
+      `Spearheaded marketing campaigns and teambuilding events for local and overseas companies`,
     ],
   }
 ];
