@@ -39,7 +39,7 @@ const projects: Project[] = [
       realSite: 'https://tokyobanana.netlify.app/',
     },
     summary: `
-    A platform that enables individuals and organisations to contribute to reduce greenhouse gases in the atomosphere through voluntary carbon offsetting
+    A platform that enables individuals and organisations to reduce greenhouse gases through voluntary carbon offsetting
     `,
     category: 'Web',
   },
@@ -129,7 +129,7 @@ const projects: Project[] = [
       github: 'https://github.com/team-pizza-one-bank-qr/GSHackathon',
     },
     summary: `
-    A simple integration layer with serverless architecture that enables efficient onboarding of clients with business through the generation of QR code and storing of approved businesses by each client.
+    A simple integration layer with serverless architecture that enables efficient onboarding of clients with business.
     `,
     category: 'Web',
   },

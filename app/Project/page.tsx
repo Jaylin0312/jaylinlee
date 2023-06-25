@@ -1,5 +1,5 @@
 'use client'
-import Card from './Card'
+import Cards from './Cards'
 import { useState } from 'react'
 import styles from './styles.module.css'
 
@@ -29,7 +29,7 @@ export default function Project() {
   }
 
   return (
-    <section id="exp_section" className="py-14 md:py-32 mx-auto max-w-5xl">
+    <section id="project_section" className="py-14 md:py-32 mx-auto max-w-6xl">
       <div className="flex flex-col justify-center items-center">
         <div className="flex flex-col justify-center items-center">
           <div className="text-xl font-bold md:text-4xl bg-clip-text text-transparent bg-gradient-to-r from-[#C985FF] to-[#1CDECA]">
@@ -42,8 +42,8 @@ export default function Project() {
         <div className="text-slate-300 mt-3.5 flex w-full items-center max-w-xl border-b border-slate-600">
           {['All', 'Web', 'Mobile'].map((item) => renderNavItem(item))}
         </div>
-        <div className="flex w-full justify-center flex-col md:flex-row gap-10 lg:gap-0">
-          <Card query={selectedItem} />
+        <div className="w-full mt-10">
+          <Cards query={selectedItem} />
         </div>
       </div>
     </section>
