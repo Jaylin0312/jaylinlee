@@ -35,7 +35,7 @@ export default function Project() {
           <div className="text-xl font-bold md:text-4xl bg-clip-text text-transparent bg-gradient-to-r from-[#C985FF] to-[#1CDECA]">
             &lt;h1&gt; Projects &lt;/h1&gt;
           </div>
-          <div className="text-base text-slate-300 mt-3.5">
+          <div className="text-base text-[#8de8ff] mt-3.5">
             My personal projects and things that I&apos;ve built in the past.
           </div>
         </div>

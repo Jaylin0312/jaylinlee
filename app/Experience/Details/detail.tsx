@@ -9,11 +9,11 @@ export default function Detail({
   const experience = experiences[selectedExperienceIndex]
   return (
     <div className="flex flex-col md:w-2/3 gap-2">
-      <div className="text-xl lg:text-2xl text-white font-bold">
+      <div className="text-xl lg:text-2xl text-slate-100 font-bold">
         {experience.jobPosition}{' '}
-        <span className="text-[#71B3E4]">@ {experience.company}</span>
+        <span className="text-[#8de8ff]">@ {experience.company}</span>
       </div>
-      <div className="text-slate-300 text-md">{experience.duration}</div>
+      <div className="text-slate-200 text-md">{experience.duration}</div>
       <ul className='text-slate-300'>
         {experience.achievements.map((a, i) => (
           <li className={`text-md ${styles.list} ${i === experience.achievements.length - 1 ? 'mb-0' : 'mb-3'}`} key={i}>{a}</li>

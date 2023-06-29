@@ -5,7 +5,7 @@ const SvgCrescentMoonPhaseSvgrepoCom = (props) => (
     xmlSpace="preserve"
     width={18}
     height={20}
-    fill="#fff"
+    fill="#cbd5e1"
     viewBox="0 0 30.457 30.457"
     {...props}
   >

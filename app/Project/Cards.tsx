@@ -1,4 +1,4 @@
-import Card from './Card/index'
+import Card from './Card/card'
 import { projects } from '../../config/projects'
 
 export default function Cards({ query }: { query: string }) {
@@ -8,7 +8,7 @@ export default function Cards({ query }: { query: string }) {
   })
 
   return (
-    <div className='flex flex-row flex-wrap gap-10 justify-center mx-auto'>
+    <div className='flex flex-row flex-wrap gap-12 justify-center mx-auto'>
       {filteredProjects.map((project) => (
         <Card detail={project} key={project.id}/>
       ))}

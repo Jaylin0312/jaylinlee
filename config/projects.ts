@@ -7,6 +7,7 @@ const projects: Project[] = [
     id: 'carbon-offset-marketplace',
     coverImageUrl: '/projects/CarbonMarketplace.png',
     title: 'Carbon Offset Marketplace',
+    year : 2023,
     tags: [
       {
         text: 'Flask',
@@ -47,6 +48,7 @@ const projects: Project[] = [
     id: 'big-red-dot',
     coverImageUrl: '/projects/BigRedDot.png',
     title: 'Big Red Dot',
+    year : 2022,
     tags: [
       {
         text: 'Vue',
@@ -76,8 +78,9 @@ const projects: Project[] = [
   },
   {
     id: 'instant-messaging-system',
-    coverImageUrl: '/projects/CarbonMarketplace.png',
+    coverImageUrl: '/projects/IMS.png',
     title: 'Instant Messaging System',
+    year : 2023,
     tags: [
       {
         text: 'Go',
@@ -105,8 +108,9 @@ const projects: Project[] = [
   },
   {
     id: 'goldman-sachs-hackathon',
-    coverImageUrl: '/projects/CarbonMarketplace.png',
+    coverImageUrl: '/projects/GSHackathon.png',
     title: 'Goldman Sachs Hackathon',
+    year : 2022,
     tags: [
       {
         text: 'JavasScript',
@@ -134,9 +138,10 @@ const projects: Project[] = [
     category: 'Web',
   },
   {
-    id: 'spending-visulisation-system',
-    coverImageUrl: '/projects/CarbonMarketplace.png',
-    title: 'Spending Visulisation System',
+    id: 'spending-visulisation-app',
+    coverImageUrl: '/projects/SpendingVisualisationApp.png',
+    title: 'Spending Visulisation App',
+    year : 2023,
     tags: [
       {
         text: 'Expressjs',
@@ -163,14 +168,15 @@ const projects: Project[] = [
       github: 'https://github.com/Jaylin0312/spending-visualisation-system',
     },
     summary: `
-    A simple spending visualisation system that enables users to see their daily spending based on the date range they selected.
+    A spending visualisation system that enables users to see their daily spending based on the date range they select.
     `,
     category: 'Web',
   },
   {
-    id: 'shuttle-bus-booking-system',
-    coverImageUrl: '/projects/CarbonMarketplace.png',
-    title: 'Shuttle Bus Booking System',
+    id: 'shuttle-booking-system',
+    coverImageUrl: '/projects/ShuttleBookingSystem.png',
+    title: 'Shuttle Booking System',
+    year : 2022,
     tags: [
       {
         text: 'Flutter',

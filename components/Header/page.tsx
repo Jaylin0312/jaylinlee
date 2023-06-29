@@ -1,5 +1,6 @@
 'use client'
 import { useState, useEffect } from 'react'
+import Image from 'next/image'
 import Dropdown from './Dropdown'
 import MenuButton from './MenuButton'
 import Linkedin from '@/svg/linkedin'
@@ -31,27 +32,43 @@ export default function Header() {
     }
   }, [isOpen])
   return (
-    <header className="flex mx-auto justify-between py-4 md:py-8 px-7 md:px-10 w-screen bg-slate-900 fixed left-0 z-10">
-      <div className="flex text-slate-100 gap-5 lg:gap-8">
-        <div className="block text-md">Logo</div>
-        <div className="hidden md:block text-md">Skills</div>
-        <div className="hidden md:block text-md">Experience</div>
-        <div className="hidden md:block text-md">Project</div>
-        <div className="hidden md:block text-md">Contacts</div>
+    <header className="flex mx-auto justify-between py-4 md:py-8 px-7 md:px-20 w-screen bg-slate-900 fixed left-0 z-10">
+      <div className="flex text-slate-300 gap-5 lg:gap-8 items-center">
+        <div className="block">
+          <Image
+            src="/ProfileLogo.png"
+            alt="myImage"
+            className="select-none"
+            width="40"
+            height="40"
+          />
+        </div>
+        <a
+          href="#exp_section"
+          className="hidden md:block text-md hover:text-[#8de8ff] ease-in transition duration-200 hover:translate-y-[-0.1rem]"
+        >
+          <span className="text-[#8de8ff]">01.</span> Experience
+        </a>
+        <a
+          href="#project_section"
+          className="hidden md:block text-md hover:text-[#8de8ff] ease-in transition duration-200 hover:translate-y-[-0.1rem]"
+        >
+          <span className="text-[#8de8ff]">02.</span> Projects
+        </a>
+        <div className="hidden md:block text-md">
+          <span className="text-[#8de8ff]">03.</span> Skills
+        </div>
       </div>
-      <div className="flex align-center text-slate-100 gap-5 lg:gap-8">
-        <div className="hidden md:block">
-          <Crescent />
-        </div>
-        <div className="hidden md:block">
+      <div className="flex align-center text-slate-300 gap-5 lg:gap-8 items-center">
+        <a href='https://www.linkedin.com/in/lee-jie-ling' className="hidden md:block ease-in transition duration-200 hover:translate-y-[-0.2rem]">
           <Linkedin />
-        </div>
-        <div className="hidden md:block">
+        </a>
+        <a href='https://github.com/Jaylin0312' className="hidden md:block ease-in transition duration-200 hover:translate-y-[-0.2rem]">
           <Github />
-        </div>
-        <div className="hidden md:block">
+        </a>
+        <a href='mailto:jieling.lee.2021@scis.smu.edu.sg' className="hidden md:block ease-in transition duration-200 hover:translate-y-[-0.2rem]">
           <Email />
-        </div>
+        </a>
         <div onClick={toggleMenu} className="md:hidden">
           <MenuButton isOpen={isOpen} />
         </div>

@@ -16,6 +16,7 @@ export type Project = {
   id: string;
   coverImageUrl: string;
   title: string;
+  year: number;
   tags: Skillset[];
   linkUrl?: {
     facebook?: string;

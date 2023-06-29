@@ -26,5 +26,5 @@ export default function Intro() {
     }
   }, [])
 
-  return <span ref={typedRef} className="text-[#71B3E4]"></span>
+  return <span ref={typedRef} className="text-[#8de8ff]"></span>
 }

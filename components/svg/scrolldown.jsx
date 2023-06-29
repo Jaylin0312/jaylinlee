@@ -2,8 +2,6 @@ import * as React from 'react'
 const SvgScrolldown = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={50}
-    height={50}
     viewBox="0 0 375 375"
     {...props}
   >

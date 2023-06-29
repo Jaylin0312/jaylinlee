@@ -17,7 +17,7 @@ export default function Experience() {
           <div className="text-xl font-bold md:text-4xl bg-clip-text text-transparent bg-gradient-to-r from-[#C985FF] to-[#1CDECA]">
             &lt;h1&gt; Experience &lt;/h1&gt;
           </div>
-          <div className="text-base text-slate-300 mt-3.5">
+          <div className="text-base text-[#8de8ff] mt-3.5">
             My work experience and where I&apos;ve acquired my skills
           </div>
         </div>
