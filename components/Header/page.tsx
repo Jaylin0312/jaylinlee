@@ -6,7 +6,6 @@ import MenuButton from './MenuButton'
 import Linkedin from '@/svg/linkedin'
 import Github from '@/svg/github'
 import Email from '@/svg/email'
-import Crescent from '@/svg/crescent'
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState<boolean>(false)
@@ -78,7 +77,7 @@ export default function Header() {
           isOpen ? 'opacity-100 block' : 'opacity-0 invisible'
         } top-14 w-full right-0 transition-opacity duration-500 ease-in-out backdrop-blur-sm fixed z-20`}
       >
-        <Dropdown isOpen={isOpen} />
+        <Dropdown isOpen={isOpen} toggleMenu={toggleMenu}/>
       </div>
     </header>
   )

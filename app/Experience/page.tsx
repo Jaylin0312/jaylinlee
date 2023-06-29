@@ -11,13 +11,13 @@ export default function Experience() {
   };
 
   return (
-    <section id="exp_section" className="py-14 md:pt-32 md:pb-20 mx-auto max-w-7xl">
+    <section id="exp_section" className="py-20 md:pt-32 md:pb-20 mx-auto max-w-7xl">
       <div className="flex flex-col justify-center items-center gap-14">
         <div className="flex flex-col justify-center items-center">
           <div className="text-xl font-bold md:text-4xl bg-clip-text text-transparent bg-gradient-to-r from-[#C985FF] to-[#1CDECA]">
             &lt;h1&gt; Experience &lt;/h1&gt;
           </div>
-          <div className="text-base text-[#8de8ff] mt-3.5">
+          <div className="text-base text-center text-[#8de8ff] mt-3.5">
             My work experience and where I&apos;ve acquired my skills
           </div>
         </div>

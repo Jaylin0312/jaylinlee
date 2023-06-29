@@ -16,9 +16,9 @@ export default function Project() {
     return (
       <div
         key={item}
-        className={`inline-block w-full text-center p-3 relative ${
+        className={`inline-block w-full text-center p-3 relative transition ease-in-out ${
           isSelected
-            ? `${styles.selected} text-slate-300 transition ease-in-out`
+            ? `${styles.selected} text-slate-300`
             : 'text-slate-600'
         }`}
         onClick={() => handleItemClick(item)}
@@ -29,13 +29,13 @@ export default function Project() {
   }
 
   return (
-    <section id="project_section" className="py-14 md:py-32 mx-auto max-w-6xl">
+    <section id="project_section" className="py-20 md:py-32 mx-auto max-w-6xl">
       <div className="flex flex-col justify-center items-center">
         <div className="flex flex-col justify-center items-center">
           <div className="text-xl font-bold md:text-4xl bg-clip-text text-transparent bg-gradient-to-r from-[#C985FF] to-[#1CDECA]">
             &lt;h1&gt; Projects &lt;/h1&gt;
           </div>
-          <div className="text-base text-[#8de8ff] mt-3.5">
+          <div className="text-base text-center text-[#8de8ff] mt-3.5">
             My personal projects and things that I&apos;ve built in the past.
           </div>
         </div>
