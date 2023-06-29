@@ -13,6 +13,7 @@ export default function Card({ detail }: { detail: Project }) {
                 className="min-w-[200px] min-h-[200px] object-cover rounded-md opacity-60 group-hover:opacity-100 transition-opacity"
                 src={detail.coverImageUrl}
                 alt="Big Red Dot"
+                loading="lazy"
                 width={300}
                 height={200}
               />

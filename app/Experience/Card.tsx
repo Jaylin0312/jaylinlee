@@ -34,6 +34,7 @@ export default function Card({
               alt={experience.company}
               width={30}
               height={30}
+              loading="lazy"
               className="mr-4 w-auto h-auto"
             />
             <span
