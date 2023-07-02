@@ -24,8 +24,8 @@ export default function Card({
           onClick={() => handleExperienceClick(index)}
         >
           <div
-            className={`absolute w-4 h-4 bg-gray-200 rounded-full mt-1.5 -left-2 border border-white ${
-              selectedExperienceIndex === index ? 'bg-[#8de8ff]' : ''
+            className={`absolute w-4 h-4 rounded-full mt-1.5 -left-2 border border-white ${
+              selectedExperienceIndex === index ? 'bg-[#8de8ff]' : 'bg-slate-100'
             }`}
           ></div>
           <div className="flex items-center mb-1">

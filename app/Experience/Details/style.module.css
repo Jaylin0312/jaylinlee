@@ -1,7 +1,7 @@
 .list::before {
   content: '▹';
+  position: absolute;
+  left: 0;
   display: inline-block;
-  margin-right: 1rem;
-  font-size: 1.5rem;
   color: #71B3E4;
 }

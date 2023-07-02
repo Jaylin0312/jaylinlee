@@ -16,7 +16,7 @@ export default function Detail({
       <div className="text-slate-200 text-md">{experience.duration}</div>
       <ul className='text-slate-300'>
         {experience.achievements.map((a, i) => (
-          <li className={`text-md ${styles.list} ${i === experience.achievements.length - 1 ? 'mb-0' : 'mb-3'}`} key={i}>{a}</li>
+          <li className={`text-md relative pl-6 ${styles.list} ${i === experience.achievements.length - 1 ? 'mb-0' : 'mb-3'}`} key={i}>{a}</li>
         ))}
       </ul>
     </div>

@@ -138,9 +138,9 @@ const projects: Project[] = [
     category: 'Web',
   },
   {
-    id: 'spending-visulisation-app',
+    id: 'spending-visualisation-app',
     coverImageUrl: '/projects/SpendingVisualisationApp.png',
-    title: 'Spending Visulisation App',
+    title: 'Spending Visualisation App',
     year : 2023,
     tags: [
       {
