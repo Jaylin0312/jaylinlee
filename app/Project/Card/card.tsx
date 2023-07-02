@@ -1,12 +1,15 @@
 import Image from 'next/image'
-import { Project } from '../../../config/types'
+import ProgrammingIcons from '../../../components/svg/programming/utils'
+import { Project, Skillset } from '../../../config/types'
 
 export default function Card({ detail }: { detail: Project }) {
-  const link = detail.linkUrl?.realSite ? detail.linkUrl?.realSite : detail.linkUrl?.github;
+  const link = detail.linkUrl?.realSite
+    ? detail.linkUrl?.realSite
+    : detail.linkUrl?.github
   return (
     <div className="group">
       <a href={link} target="_blank">
-        <div className="rounded-xl max-w-[300px] min-h-[380px] bg-clip-border shadow-3xl shadow-shadow-500 flex flex-col w-full p-4 3xl:p-[18px] bg-[#18315b] duration-500 ease-in-out group-hover:translate-y-[-0.5rem]">
+        <div className="rounded-xl max-w-[320px] min-h-[390px] bg-clip-border shadow-3xl shadow-shadow-500 flex flex-col w-full p-4 md:p-5 3xl:p-[18px] bg-[#18315b] duration-500 ease-in-out group-hover:translate-y-[-0.5rem]">
           <div className="h-full w-full">
             <div className="relative w-full">
               <Image
@@ -28,6 +31,13 @@ export default function Card({ detail }: { detail: Project }) {
                 </div>
               </div>
               <div className="text-sm text-slate-300">{detail.summary}</div>
+              <div className="flex mt-3">
+                {detail.tags.map((tag: Skillset) => (
+                  <div key={tag.text} className='mr-2'>
+                    <ProgrammingIcons name={tag.icon} />
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </div>

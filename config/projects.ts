@@ -1,4 +1,4 @@
-import { Breadcrumb, Project } from './types'
+import { Breadcrumb, Project, Skillset } from './types'
 
 const breadcrumb: Breadcrumb[] = [{ text: 'Home', url: '/' }]
 
@@ -14,16 +14,16 @@ const projects: Project[] = [
         icon: 'Flask',
       },
       {
-        text: 'Expressjs',
-        icon: 'Expressjs',
+        text: 'Express',
+        icon: 'Express',
       },
       {
-        text: 'PostgreSQL',
-        icon: 'PostgreSQL',
+        text: 'Postgresql',
+        icon: 'Postgresql',
       },
       {
-        text: 'RabbitMQ',
-        icon: 'RabbitMQ',
+        text: 'Rabbitmq',
+        icon: 'Rabbitmq',
       },
       {
         text: 'Temporal',
@@ -33,7 +33,7 @@ const projects: Project[] = [
         text: 'Nextjs',
         icon: 'Nextjs',
       },
-    ],
+    ] as Skillset[],
     linkUrl: {
       github:
         'https://github.com/IS213-G9-tokyobanana/carbon-marketplace-backend',
@@ -52,27 +52,27 @@ const projects: Project[] = [
     tags: [
       {
         text: 'Vue',
-        icon: 'vue',
+        icon: 'Vue',
       },
       {
         text: 'Firebase',
-        icon: 'firebase',
+        icon: 'Firebase',
       },
       {
         text: 'Tailwind',
-        icon: 'tailwind',
+        icon: 'Tailwind',
       },
       {
-        text: 'TypeScript',
-        icon: 'TypeScript',
+        text: 'Typescript',
+        icon: 'Typescript',
       },
-    ],
+    ] as Skillset[],
     linkUrl: {
       github: 'https://github.com/Jaylin0312/BigRedDot',
       realSite: 'https://is216-bigreddot.web.app/',
     },
     summary: `
-    An one-stop platform for users to explore the myriad of products and services Singapore's small businesses have to offer.
+    An one-stop platform for users to explore the products and services Singapore's small businesses have to offer.
     `,
     category: 'Web',
   },
@@ -83,22 +83,14 @@ const projects: Project[] = [
     year : 2023,
     tags: [
       {
-        text: 'Go',
-        icon: 'Go',
+        text: 'GoLang',
+        icon: 'GoLang',
       },
       {
         text: 'Redis',
         icon: 'Redis',
-      },
-      {
-        text: 'Kitex',
-        icon: 'Kitex',
-      },
-      {
-        text: 'Hertz',
-        icon: 'Hertz',
-      },
-    ],
+      }
+    ] as Skillset[],
     linkUrl: {
       github: 'https://github.com/Jaylin0312/TikTokImmersion_Assignment',
     },
@@ -113,8 +105,8 @@ const projects: Project[] = [
     year : 2022,
     tags: [
       {
-        text: 'JavasScript',
-        icon: 'JavasScript',
+        text: 'Javascript',
+        icon: 'Javascript',
       },
       {
         text: 'Python',
@@ -128,7 +120,7 @@ const projects: Project[] = [
         text: 'Reactjs',
         icon: 'Reactjs',
       },
-    ],
+    ] as Skillset[],
     linkUrl: {
       github: 'https://github.com/team-pizza-one-bank-qr/GSHackathon',
     },
@@ -144,12 +136,12 @@ const projects: Project[] = [
     year : 2023,
     tags: [
       {
-        text: 'Expressjs',
-        icon: 'Expressjs',
+        text: 'Express',
+        icon: 'Express',
       },
       {
-        text: 'PostgreSQL',
-        icon: 'PostgreSQL',
+        text: 'Postgresql',
+        icon: 'Postgresql',
       },
       {
         text: 'Docker',
@@ -163,7 +155,7 @@ const projects: Project[] = [
         text: 'Tailwind',
         icon: 'Tailwind',
       },
-    ],
+    ] as Skillset[],
     linkUrl: {
       github: 'https://github.com/Jaylin0312/spending-visualisation-system',
     },
@@ -181,17 +173,13 @@ const projects: Project[] = [
       {
         text: 'Flutter',
         icon: 'Flutter',
-      },
-      {
-        text: 'Dart',
-        icon: 'Dart',
-      },
-    ],
+      }
+    ] as Skillset[],
     linkUrl: {
       github: 'https://github.com/tigercxx/GI-T6-Hello-World',
     },
     summary: `
-    A flutter application that receives users requests for shuttle services and provides the service to promote sustainable transport`,
+    A flutter application that receives users requests for shuttle services and provides so to promote sustainable transport`,
     category: 'Mobile',
   }
 ]

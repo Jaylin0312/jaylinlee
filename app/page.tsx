@@ -5,7 +5,7 @@ import Project from './Project/page'
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-slate-900 px-10 pb-10 md:px-12">
+    <main className="min-h-screen bg-slate-900 px-6 pb-10 md:px-12">
       <Header />
       <About />
       <Experience />
