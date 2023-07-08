@@ -23,10 +23,11 @@
 }
 
 .splinecam {
+  width: 0% !important;
   position: absolute !important;
   margin: 0 !important;
   top: -1100% !important;
-  right: -70% !important;
+  right: 30% !important;
 }
 
 .splinecam > canvas {
@@ -47,7 +48,7 @@
 
   .splinecam {
     top: -1000% !important;
-    right: -70% !important;
+    right: 35% !important;
   }
 
   .splinecam > canvas {
@@ -62,13 +63,13 @@
   }
 
   .splinecup > canvas {
-    width: 120px !important;
-    height: 120px !important;
+    width: 110px !important;
+    height: 110px !important;
   }
 
   .splinecam {
     top: -1000% !important;
-    right: -75% !important;
+    right: 32% !important;
   }
 
   .splinecam > canvas {
@@ -78,6 +79,14 @@
 }
 
 @media only screen and (max-width: 425px) {
+  .splinecup {
+    right: 5% !important;
+  }
+
+  .splinecam {
+    right: 25% !important;
+  }
+
   .splinecup > canvas {
     width: 100px !important;
     height: 100px !important;
