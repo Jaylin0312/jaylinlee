@@ -36,6 +36,7 @@ export default function About() {
             className="select-none"
             width="380"
             height="100"
+            priority
           />
           <div className={styles.customsplinecam}>
             <Spline

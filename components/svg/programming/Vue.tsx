@@ -1,5 +1,6 @@
-import * as React from 'react'
-const Vue = (props) => (
+import React, { FC, SVGProps } from 'react'
+
+const Vue: FC<SVGProps<SVGSVGElement>> = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlSpace="preserve"

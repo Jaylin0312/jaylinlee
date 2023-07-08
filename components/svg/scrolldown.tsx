@@ -1,5 +1,6 @@
-import * as React from 'react'
-const SvgScrolldown = (props) => (
+import React, { FC, SVGProps } from 'react'
+
+const ScrollDown: FC<SVGProps<SVGSVGElement>> = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 375 375"
@@ -21,4 +22,4 @@ const SvgScrolldown = (props) => (
     />
   </svg>
 )
-export default SvgScrolldown
+export default ScrollDown

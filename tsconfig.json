@@ -23,6 +23,6 @@
       "@/*": ["./components/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/svg/programming/utils.tsx", "components/svg/programming/AWS.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/svg/programming/utils.tsx", "components/svg/programming/AWS.tsx"],
   "exclude": ["node_modules"]
 }
