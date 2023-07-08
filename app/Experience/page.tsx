@@ -15,7 +15,7 @@ export default function Experience() {
       <div className="flex flex-col justify-center items-center gap-14">
         <div className="flex flex-col justify-center items-center">
           <div className="text-xl font-bold md:text-4xl bg-clip-text text-transparent bg-gradient-to-r from-[#C985FF] to-[#1CDECA]">
-            &lt;h1&gt; Experience &lt;/h1&gt;
+            01. Experience
           </div>
           <div className="text-base text-center text-[#8de8ff] mt-3.5">
             My work experience and where I&apos;ve acquired my skills

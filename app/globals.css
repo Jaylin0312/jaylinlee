@@ -15,6 +15,8 @@ body {
   margin: 0;
   font-family: ui-monospace, 'Cascadia Mono', 'Segoe UI Mono', 'Liberation Mono',
     Menlo, Monaco, Consolas, monospace;
+  --tw-bg-opacity: 1;
+  background-color: rgb(15 23 42 / var(--tw-bg-opacity));
 }
 
 h1,
@@ -31,7 +33,7 @@ button,
 label,
 textarea,
 li {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 html {

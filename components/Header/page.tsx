@@ -31,7 +31,7 @@ export default function Header() {
     }
   }, [isOpen])
   return (
-    <header className="flex mx-auto justify-between py-4 md:py-8 px-7 lg:px-20 w-screen bg-slate-900 fixed left-0 z-10">
+    <header className="flex mx-auto justify-between py-3 px-6 lg:px-14 w-screen bg-slate-900 fixed left-0 z-10">
       <div className="flex text-slate-300 gap-5 lg:gap-8 items-center">
         <div className="block">
           <Image

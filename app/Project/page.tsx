@@ -19,7 +19,7 @@ export default function Project() {
         className={`inline-block w-full text-center p-3 relative transition ease-in-out ${
           isSelected
             ? `${styles.selected} text-slate-300`
-            : 'text-slate-600'
+            : 'text-slate-500'
         }`}
         onClick={() => handleItemClick(item)}
       >
@@ -33,7 +33,7 @@ export default function Project() {
       <div className="flex flex-col justify-center items-center">
         <div className="flex flex-col justify-center items-center">
           <div className="text-xl font-bold md:text-4xl bg-clip-text text-transparent bg-gradient-to-r from-[#C985FF] to-[#1CDECA]">
-            &lt;h1&gt; Projects &lt;/h1&gt;
+            02. Projects
           </div>
           <div className="text-base text-center text-[#8de8ff] mt-3.5">
             My personal projects and things that I&apos;ve built in the past.
