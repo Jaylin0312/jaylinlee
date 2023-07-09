@@ -104,6 +104,13 @@
 
 @media only screen and (max-width: 380px) {
   .layout {
-    height: 110vh !important;
+    height: 112vh !important;
   }
 }
+
+@media only screen and (max-width: 760px) and (max-height: 660px) {
+  .layout {
+    height: 115vh !important;
+  }
+}
+
