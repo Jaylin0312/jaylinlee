@@ -1,10 +1,15 @@
-import React, { FC, SVGProps } from 'react'
+import React, { FC, SVGProps } from 'react';
 
-const Docker: FC<SVGProps<SVGSVGElement>> = (props) => (
+type Props = SVGProps<SVGSVGElement> & {
+  width?: number | string;
+  height?: number | string;
+};
+
+const Docker: FC<Props> = ({ width = 30, height = 30, ...props })=> (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={30}
-    height={30}
+    width={width}
+    height={height}
     fill="none"
     viewBox="0 0 16 16"
     {...props}

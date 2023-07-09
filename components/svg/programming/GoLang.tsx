@@ -1,10 +1,15 @@
 import React, { FC, SVGProps } from 'react'
 
-const GoLang: FC<SVGProps<SVGSVGElement>> = (props) => (
+type Props = SVGProps<SVGSVGElement> & {
+  width?: number | string
+  height?: number | string
+}
+
+const GoLang: FC<Props> = ({ width = 30, height = 30, ...props }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={30}
-    height={30}
+    width={width}
+    height={height}
     viewBox="0 0 24 24"
     {...props}
   >

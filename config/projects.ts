@@ -1,6 +1,4 @@
-import { Breadcrumb, Project, Skillset } from './types'
-
-const breadcrumb: Breadcrumb[] = [{ text: 'Home', url: '/' }]
+import { Project, Skillset } from './types'
 
 const projects: Project[] = [
   {
@@ -184,4 +182,4 @@ const projects: Project[] = [
   }
 ]
 
-export { breadcrumb, projects }
+export { projects }

@@ -31,7 +31,7 @@ export default function Card({ detail }: { detail: Project }) {
                 </div>
               </div>
               <div className="text-sm text-slate-300">{detail.summary}</div>
-              <div className="flex mt-3">
+              <div className="flex flex-wrap mt-3">
                 {detail.tags.map((tag: Skillset) => (
                   <div key={tag.text} className='mr-2'>
                     <ProgrammingIcons name={tag.icon} />

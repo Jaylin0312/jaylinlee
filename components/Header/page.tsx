@@ -54,18 +54,30 @@ export default function Header() {
         >
           <span className="text-[#8de8ff]">02.</span> Projects
         </a>
-        <div className="hidden md:block text-md">
+        <a href="#skills" className="hidden md:block text-md hover:text-[#8de8ff] ease-in transition duration-200 hover:translate-y-[-0.1rem]">
           <span className="text-[#8de8ff]">03.</span> Skills
-        </div>
+        </a>
+        <a href="#contact" className="hidden md:block text-md hover:text-[#8de8ff] ease-in transition duration-200 hover:translate-y-[-0.1rem]">
+          <span className="text-[#8de8ff]">04.</span> Contact
+        </a>
       </div>
       <div className="flex align-center text-slate-300 gap-5 lg:gap-8 items-center">
-        <a href='https://www.linkedin.com/in/lee-jie-ling' className="hidden md:block ease-in transition duration-200 hover:translate-y-[-0.2rem]">
+        <a
+          href="https://www.linkedin.com/in/lee-jie-ling"
+          className="hidden md:block ease-in transition duration-200 hover:translate-y-[-0.2rem]"
+        >
           <Linkedin />
         </a>
-        <a href='https://github.com/Jaylin0312' className="hidden md:block ease-in transition duration-200 hover:translate-y-[-0.2rem]">
+        <a
+          href="https://github.com/Jaylin0312"
+          className="hidden md:block ease-in transition duration-200 hover:translate-y-[-0.2rem]"
+        >
           <Github />
         </a>
-        <a href='mailto:jieling.lee.2021@scis.smu.edu.sg' className="hidden md:block ease-in transition duration-200 hover:translate-y-[-0.2rem]">
+        <a
+          href="mailto:jieling.lee.2021@scis.smu.edu.sg"
+          className="hidden md:block ease-in transition duration-200 hover:translate-y-[-0.2rem]"
+        >
           <Email />
         </a>
         <div onClick={toggleMenu} className="md:hidden">
@@ -77,7 +89,7 @@ export default function Header() {
           isOpen ? 'opacity-100 block' : 'opacity-0 invisible'
         } top-14 w-full right-0 transition-opacity duration-500 ease-in-out backdrop-blur-sm fixed z-20`}
       >
-        <Dropdown isOpen={isOpen} toggleMenu={toggleMenu}/>
+        <Dropdown isOpen={isOpen} toggleMenu={toggleMenu} />
       </div>
     </header>
   )

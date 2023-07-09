@@ -11,7 +11,7 @@ export default function Experience() {
   };
 
   return (
-    <section id="exp_section" className="py-20 md:pt-32 md:pb-20 mx-auto max-w-7xl">
+    <section id="exp_section" className="py-20 md:pt-32 md:pb-20 mx-auto max-w-6xl">
       <div className="flex flex-col justify-center items-center gap-14">
         <div className="flex flex-col justify-center items-center">
           <div className="text-xl font-bold md:text-4xl bg-clip-text text-transparent bg-gradient-to-r from-[#C985FF] to-[#1CDECA]">

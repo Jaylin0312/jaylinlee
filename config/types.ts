@@ -27,8 +27,3 @@ export type Project = {
   summary: string;
   category: string;
 };
-
-export type Breadcrumb = {
-  text: string;
-  url: string;
-};

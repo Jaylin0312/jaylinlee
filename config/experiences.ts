@@ -8,8 +8,8 @@ const experiences: Experience[] = [
     duration: "May 2023 - Present",
     jobPosition: "Software Engineer Intern",
     achievements: [
-      `Designed and developed a healthcare analytics system on AMI platform using Java and SQL, allowing real-time data streaming and visualization`,
       `Engineered technical solutions for global banks according to the client's business requirements`,
+      `Implemented Python scripts to optimise debugging process of data mismatch issues and generation of test reports`,
       `Implemented end-to-end testing using Python, Selenium, and Jenkins`,
     ],
   },
@@ -20,7 +20,7 @@ const experiences: Experience[] = [
     duration: "May 2022 - Aug 2022",
     jobPosition: "Frontend Developer Intern",
     achievements: [
-      `Implemented features for a Web3 marketplace using Angular, SCSS and Typescript, which successfully drove the onboarding of new web users by a factor of 3`,
+      `Implemented features such as user application system and dashboard for a Web3 marketplace using Angular, SCSS and Typescript`,
       `Engineered controllers, business logic, and custom reusable UI components to support user onboarding`,
       `Improved web performance by refactoring legacy code and removing unused functions and stylings`,
     ],

@@ -1,10 +1,15 @@
 import React, { FC, SVGProps } from 'react'
 
-const Redis: FC<SVGProps<SVGSVGElement>> = (props) => (
+type Props = SVGProps<SVGSVGElement> & {
+  width?: number | string
+  height?: number | string
+}
+
+const Redis: FC<Props> = ({ width = 30, height = 30, ...props }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={30}
-    height={30}
+    width={width}
+    height={height}
     preserveAspectRatio="xMinYMin meet"
     viewBox="0 -18 256 256"
     {...props}
