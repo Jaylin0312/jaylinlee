@@ -6,7 +6,7 @@ import Spline from './spline'
 
 export default function About() {
   return (
-    <section className="flex flex-col items-center h-screen justify-center gap-6 xl:gap-5">
+    <section className={`${styles.layout} flex flex-col items-center h-screen justify-center gap-6 xl:gap-5`}>
       <div className="flex flex-wrap-reverse xl:gap-16 2xl:gap-32 justify-center items-center md:flex-nowrap xl:py-20 2xl:py-32 overflow-hidden md:overflow-visible">
         <div className="flex flex-col gap-2 md:gap-3 xl:gap-6 flex-wrap">
           <div className="text-md lg:text-lg 2xl:text-xl text-[#8de8ff]">

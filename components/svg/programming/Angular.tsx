@@ -20,9 +20,9 @@ const Angular: FC<Props> = ({ width = 30, height = 30, ...props }) => (
       y2="43.472"
       gradientUnits="userSpaceOnUse"
     >
-      <stop offset="0" stop-color="#dfe9f2" />
-      <stop offset=".391" stop-color="#d6e0e9" />
-      <stop offset="1" stop-color="#bfc8d1" />
+      <stop offset="0" stopColor="#dfe9f2" />
+      <stop offset=".391" stopColor="#d6e0e9" />
+      <stop offset="1" stopColor="#bfc8d1" />
     </linearGradient>
     <path
       fill="url(#QzbsZZGqvt5vTzXzFrTWxa)"
@@ -36,9 +36,9 @@ const Angular: FC<Props> = ({ width = 30, height = 30, ...props }) => (
       y2="39.957"
       gradientUnits="userSpaceOnUse"
     >
-      <stop offset="0" stop-color="#f44f5a" />
-      <stop offset=".443" stop-color="#ee3d4a" />
-      <stop offset="1" stop-color="#e52030" />
+      <stop offset="0" stopColor="#f44f5a" />
+      <stop offset=".443" stopColor="#ee3d4a" />
+      <stop offset="1" stopColor="#e52030" />
     </linearGradient>
     <path
       fill="url(#QzbsZZGqvt5vTzXzFrTWxb)"

@@ -36,6 +36,10 @@
   height: 140px !important;
 }
 
+.layout {
+  height: 100vh !important;
+}
+
 @media only screen and (max-width: 1024px) {
   .splinecup {
     right: 25% !important;
@@ -78,7 +82,7 @@
   }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 430px) {
   .splinecup {
     right: 5% !important;
   }
@@ -95,5 +99,11 @@
   .splinecam > canvas {
     width: 110px !important;
     height: 90px !important;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .layout {
+    height: 110vh !important;
   }
 }
