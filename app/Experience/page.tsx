@@ -21,7 +21,7 @@ export default function Experience() {
             My work experience and where I&apos;ve acquired my skills
           </div>
         </div>
-        <div className="flex w-full justify-center flex-col md:flex-row gap-10 lg:gap-0">
+        <div className="flex w-full justify-center flex-col md:flex-row gap-10 lg:gap-0 cursor-pointer">
           <Card
             selectedExperienceIndex={selectedExperienceIndex}
             handleExperienceClick={handleExperienceClick}

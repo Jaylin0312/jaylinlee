@@ -39,7 +39,7 @@ export default function Project() {
             My personal projects and things that I&apos;ve built in the past.
           </div>
         </div>
-        <div className="text-slate-300 mt-3.5 flex w-full items-center max-w-xl border-b border-slate-600">
+        <div className="text-slate-300 mt-3.5 flex w-full items-center max-w-xl border-b border-slate-600 cursor-pointer">
           {['All', 'Web', 'Mobile'].map((item) => renderNavItem(item))}
         </div>
         <div className="w-full mt-10">
