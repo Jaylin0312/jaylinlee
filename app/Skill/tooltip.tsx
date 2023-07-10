@@ -17,7 +17,7 @@ const TooltipPopup: React.FC<TooltipPopupProps> = ({ skill }) => {
 
   return (
     <Tooltip.Provider>
-      <Tooltip.Root open={open}>
+      <Tooltip.Root open={open} onOpenChange={setOpen}>
         <Tooltip.Trigger
           asChild
           className="transition-all duration-300 ease-in-out cursor-pointer"
