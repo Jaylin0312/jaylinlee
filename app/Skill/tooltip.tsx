@@ -11,24 +11,19 @@ interface TooltipPopupProps {
 const TooltipPopup: React.FC<TooltipPopupProps> = ({ skill }) => {
   const [open, setOpen] = useState(false)
 
-  const handleMouseEnter = () => {
-    setOpen(true)
-  }
-
   const handleClick = () => {
     setOpen(!open)
   }
 
   return (
     <Tooltip.Provider>
-      <Tooltip.Root open={open} onOpenChange={setOpen}>
+      <Tooltip.Root open={open}>
         <Tooltip.Trigger
           asChild
           className="transition-all duration-300 ease-in-out cursor-pointer"
         >
           <div
             className="inline-flex items-center justify-center rounded-full outline-none"
-            onMouseEnter={handleMouseEnter}
             onClick={handleClick}
           >
             <ProgrammingIcons name={skill.icon} width={40} height={40} />
