@@ -12,7 +12,7 @@ export default function Card({
   handleExperienceClick,
 }: CardProps) {
   return (
-    <ol className="relative border-l border-gray-200 md:w-1/4 md:h-[180px]">
+    <ol className="relative border-l border-gray-200 md:w-1/4 md:h-[255px]">
       {experiences.map((experience: Experience, index: number) => (
         <li
           className={`ml-6 ${
