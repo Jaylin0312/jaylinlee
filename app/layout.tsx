@@ -1,6 +1,7 @@
 import './globals.css'
 import Head from 'next/head'
 import { Inter } from 'next/font/google'
+import { Analytics } from '@vercel/analytics/next'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -33,7 +34,10 @@ export default function RootLayout({
         <meta property="og:image:height" content="<generated>" />
       </Head>
       <html className="scroll-smooth" lang="en">
-        <body className={inter.className}>{children}</body>
+        <body className={inter.className}>
+          {children}
+          <Analytics />
+        </body>
       </html>
     </>
   )
